@@ -1,0 +1,7 @@
+Application Name,Application Description,Tier,Vendor,PHI,PII,HCI,Support group
+EMR,Electronic Medical Records Application,Tier 1,Epic,True,True,True,EMR Support
+Enterprise Service Bus,HL7 engine - enterprise standard integration platform,Tier 1,Mirth,True,True,False,Integration
+Radiology PACS,PACS Image Storage,Tier 1,Philips,True,True,False,Network
+DICOM Router,Image Exchange Router,Tier 1,Acuo,True,True,False,DBA
+ServiceNow,Service Request Management,Tier 2,ServiceNow,True,True,False,Field Services
+Sharepoint,Collaboration Suite,Tier 2,Microsoft,False,False,False,Analytics

@@ -1,0 +1,26 @@
+{
+
+"search": {
+"levier": "Recherchedepuislaliste",
+"nbresults": "137 314",
+"nbpage": "1",
+"typedetransaction": ["vente", "viager"],
+"nbpieces": [""],
+"typedebien": ["Appartement", "Maison/Villa"],
+"pays": "FR",
+"nbchambres": [""],
+"budget": {"min": "", "max": ""},
+"surface": {"min": "", "max": ""},
+"surface_terrain": {"min": "", "max": ""},
+"type": [{"name": "Nouvellerecherche", "value": true},
+        {"name": "Dernièrerecherche", "value": false},
+        {"name": "Rechercheenregistrée", "value": false}],
+"etage": {"min": "", "max": ""},
+"tri": {"criteria": "Sélection",
+        "direction": ""},
+"chauffage": [{"name": "individuel", "value": false},
+              {"name": "central", "value": false},
+              {"name": "electrique", "value": false},
+              {"name": "gaz", "value": false}]
+}
+}

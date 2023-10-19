@@ -1,0 +1,27 @@
+version: '3'
+
+services:
+    db:
+        image: postgres
+        environment:
+           - POSTGRES_DB=tdjangodb
+           - POSTGRES_USER=djangoadmin
+           - POSTGRES_PASSWORD=djangoadmin
+        volumes:
+           - $HOME/volumes/tdjangodb:/var/lib/postgresql/data
+        ports:
+           - '5434:5432'
+
+    web:
+        image: gpdsdjangodockr
+        command: python manage.py runserver 0.0.0.0:8000
+        volumes:
+           - $HOME/src/gpds/djangoproject:/code
+        ports:
+           - '8000:8000'
+        links:
+           - db
+        depends_on:
+           - db
+        env_file:
+           - ./.env.dev

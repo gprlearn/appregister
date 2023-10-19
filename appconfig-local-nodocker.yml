@@ -1,0 +1,12 @@
+---
+global:
+  DEBUG: '1'
+  SECRET_KEY: c_nriq$kt3bgdsfjldfsdlkdfg#3ndn98sz6%tmx
+  DJANGO_ALLOWED_HOSTS: 't1.local t2.local t3.local [::1]'
+postgres:
+  SQL_ENGINE: django_tenants.postgresql_backend
+  SQL_DATABASE: djangodb
+  SQL_USER: dbadmin
+  SQL_PASSWORD: dbadmin
+  SQL_HOST: localhost
+  SQL_PORT: '5432'
